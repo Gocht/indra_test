@@ -24,6 +24,12 @@ Requirements:
 ├── readme.md
 └── .gitignore
 ```
+
+- `out.txt` file contains the output from `main.py` execution
+- `pd_out.txt` file contains the output from `pd_main.py` execution
+- `output` directory contains tables creates by pyspark script
+- `pd_output` directory contains tables creates by python script
+
 ## Run
 
 Located in working directory

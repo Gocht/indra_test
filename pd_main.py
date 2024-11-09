@@ -44,12 +44,10 @@ def add_fk(fks, df):
 def save(df, table_name):
     """ Save dataframe """
     try:
-        path = os.path.join(OUTPUT_PATH, f'{table_name}.parquet')
-        print('path')
-        print(df.columns)
+        path = os.path.join(OUTPUT_PATH, f'{table_name}.snappy.parquet')
         df.to_parquet(
             path=path,
-            # compression='snappy',
+            compression='snappy',
             index=False
         )
         logger.info(f'Saved {table_name} to {path}')
