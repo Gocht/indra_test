@@ -25,6 +25,8 @@ Requirements:
 └── .gitignore
 ```
 
+## Files
+
 - `out.txt` file contains the output from `main.py` execution
 - `pd_out.txt` file contains the output from `pd_main.py` execution
 - `output` directory contains tables creates by pyspark script
