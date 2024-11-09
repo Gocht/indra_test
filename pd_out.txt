@@ -1,0 +1,20 @@
+2.0.3
+                    RequId TransactionRequestDt_id TransactionRequestDt TransactionEffectiveDt_id TransactionEffectiveDt                   PK_PersAutoPolicyModRq
+AAAAAA-BBBBBB-CCCCCC-DDDDD                    N509           2024-07-16                      N510             2024-07-18 4b67d79d658d882032199d7ed65990fac7be6036
+Producer_id                   FK_PersAutoPolicyModRq          PK_PersAutoPolicyModRq_Producer
+         N1 4b67d79d658d882032199d7ed65990fac7be6036 bdc2d5b893d9f0fdd6e8acb8d9176eadfdac6eff
+ItemIdInfo_id          FK_PersAutoPolicyModRq_Producer                   FK_PersAutoPolicyModRq PK_PersAutoPolicyModRq_Producer_ItemIdInfo AgencyId_id AgencyId InsurerId_id InsurerId
+           N2 bdc2d5b893d9f0fdd6e8acb8d9176eadfdac6eff 4b67d79d658d882032199d7ed65990fac7be6036   c7601d1948b76ced9f69782cf638719cfcf500b7          N3      077         N511        05
+GeneralPartyInfo_id                   FK_PersAutoPolicyModRq          FK_PersAutoPolicyModRq_Producer             PK_Producer_GeneralPartyInfo
+                 N4 4b67d79d658d882032199d7ed65990fac7be6036 bdc2d5b893d9f0fdd6e8acb8d9176eadfdac6eff 0d549b168f3e4079fb8dcfcb63a9bcff9ea56fb3
+ProducerInfo_id ContractNumber_id ContractNumber ProducerSubCode_id ProducerSubCode                   FK_PersAutoPolicyModRq          FK_PersAutoPolicyModRq_Producer                 PK_Producer_ProducerInfo
+           N512              N513            Y77               N514             293 4b67d79d658d882032199d7ed65990fac7be6036 bdc2d5b893d9f0fdd6e8acb8d9176eadfdac6eff 7d49692bd20d9fb84e40b7eeeee0cd7955ca8f6a
+           N513              N514            z77               N517             d93 4b67d79d658d882032199d7ed65990fac7be6036 bdc2d5b893d9f0fdd6e8acb8d9176eadfdac6eff 29c6153b92bd86bbd3ff832f5fc62dd966cb776d
+NameInfo_id                   FK_PersAutoPolicyModRq          FK_PersAutoPolicyModRq_Producer             FK_Producer_GeneralPartyInfo             PK_GeneralPartyInfo_NameInfo
+         N5 4b67d79d658d882032199d7ed65990fac7be6036 bdc2d5b893d9f0fdd6e8acb8d9176eadfdac6eff 0d549b168f3e4079fb8dcfcb63a9bcff9ea56fb3 2b7023e294ba4c51b515380a3c3099c3bd14af12
+        N11 4b67d79d658d882032199d7ed65990fac7be6036 bdc2d5b893d9f0fdd6e8acb8d9176eadfdac6eff 0d549b168f3e4079fb8dcfcb63a9bcff9ea56fb3 fc0552ff2325fecb4b766e62138d5b9c742dcd6a
+CommlName_id CommercialName_id                         CommercialName                   FK_PersAutoPolicyModRq          FK_PersAutoPolicyModRq_Producer             FK_Producer_GeneralPartyInfo             FK_GeneralPartyInfo_NameInfo                    PK_NameInfo_CommlName
+          N6                N7 MailingName: AAA WASHINGTON INS AGENCY 4b67d79d658d882032199d7ed65990fac7be6036 bdc2d5b893d9f0fdd6e8acb8d9176eadfdac6eff 0d549b168f3e4079fb8dcfcb63a9bcff9ea56fb3 2b7023e294ba4c51b515380a3c3099c3bd14af12 74d823b4ddccc807afa29fae23dd31cf9912adef
+         N12               N13 BillingName: AAA WASHINGTON INS AGENCY 4b67d79d658d882032199d7ed65990fac7be6036 bdc2d5b893d9f0fdd6e8acb8d9176eadfdac6eff 0d549b168f3e4079fb8dcfcb63a9bcff9ea56fb3 fc0552ff2325fecb4b766e62138d5b9c742dcd6a 227100c1561d87499e15890cb0591f5fe7a52bb3
+TaxIdentity_id TaxIdTypeCd_id TaxIdTypeCd TaxId_id      TaxId                   FK_PersAutoPolicyModRq          FK_PersAutoPolicyModRq_Producer             FK_Producer_GeneralPartyInfo             FK_GeneralPartyInfo_NameInfo                  PK_NameInfo_TaxIdentity
+            N8             N9        FEIN          91-0133295 4b67d79d658d882032199d7ed65990fac7be6036 bdc2d5b893d9f0fdd6e8acb8d9176eadfdac6eff 0d549b168f3e4079fb8dcfcb63a9bcff9ea56fb3 2b7023e294ba4c51b515380a3c3099c3bd14af12 2a5c126565fe6ce62ce6f7843bae398cfa46d510

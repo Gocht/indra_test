@@ -1,0 +1,35 @@
+<PersAutoPolicyModRq>
+  <RequId>AAAAAA-BBBBBB-CCCCCC-DDDDD</RequId>
+  <TransactionRequestDt id="N509">2024-07-16</TransactionRequestDt>
+  <TransactionEffectiveDt id="N510">2024-07-18</TransactionEffectiveDt>
+  <Producer id="N1">
+    <ItemIdInfo id="N2">
+      <AgencyId id="N3">077</AgencyId>
+      <InsurerId id="N511">05</InsurerId>
+    </ItemIdInfo>
+    <GeneralPartyInfo id="N4">
+      <NameInfo id="N5">
+        <CommlName id="N6">
+          <CommercialName id="N7">MailingName: AAA WASHINGTON INS AGENCY</CommercialName>
+        </CommlName>
+        <TaxIdentity id="N8">
+          <TaxIdTypeCd id="N9">FEIN</TaxIdTypeCd>
+          <TaxId id="">91-0133295</TaxId>
+        </TaxIdentity>
+      </NameInfo>
+      <NameInfo id="N11">
+        <CommlName id="N12">
+          <CommercialName id="N13">BillingName: AAA WASHINGTON INS AGENCY</CommercialName>
+        </CommlName>
+      </NameInfo>
+    </GeneralPartyInfo>
+    <ProducerInfo id="N512">
+      <ContractNumber id="N513">Y77</ContractNumber>
+      <ProducerSubCode id="N514">293</ProducerSubCode>
+    </ProducerInfo>
+	<ProducerInfo id="N513">
+      <ContractNumber id="N514">z77</ContractNumber>
+      <ProducerSubCode id="N517">d93</ProducerSubCode>
+    </ProducerInfo>
+  </Producer>  
+</PersAutoPolicyModRq>

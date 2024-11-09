@@ -1,0 +1,8 @@
+2024-11-09 05:45:53,776 - INFO - Saved TABLE_PersAutoPolicyModRq to output/TABLE_PersAutoPolicyModRq
+2024-11-09 05:45:58,085 - INFO - Saved TABLE_PersAutoPolicyModRq_Producer to output/TABLE_PersAutoPolicyModRq_Producer
+2024-11-09 05:46:02,232 - INFO - Saved TABLE_PersAutoPolicyModRq_Producer_ItemIdInfo to output/TABLE_PersAutoPolicyModRq_Producer_ItemIdInfo
+2024-11-09 05:46:06,579 - INFO - Saved TABLE_PersAutoPolicyModRq_Producer_GeneralPartyInfo to output/TABLE_PersAutoPolicyModRq_Producer_GeneralPartyInfo
+2024-11-09 05:46:11,278 - INFO - Saved TABLE_PersAutoPolicyModRq_Producer_GeneralPartyInfo_NameInfo_CommlName to output/TABLE_PersAutoPolicyModRq_Producer_GeneralPartyInfo_NameInfo_CommlName
+2024-11-09 05:46:13,463 - INFO - Saved TABLE_PersAutoPolicyModRq_Producer_GeneralPartyInfo_NameInfo to output/TABLE_PersAutoPolicyModRq_Producer_GeneralPartyInfo_NameInfo
+2024-11-09 05:46:16,621 - INFO - Saved TABLE_PersAutoPolicyModRq_Producer_GeneralPartyInfo_NameInfo_CommlName_TaxIdentity to output/TABLE_PersAutoPolicyModRq_Producer_GeneralPartyInfo_NameInfo_CommlName_TaxIdentity
+2024-11-09 05:46:18,986 - INFO - Saved TABLE_PersAutoPolicyModRq_Producer_ProducerInfo to output/TABLE_PersAutoPolicyModRq_Producer_ProducerInfo
